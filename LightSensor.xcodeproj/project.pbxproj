@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E72291581A52A279007CFF51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E72291571A52A279007CFF51 /* AppDelegate.m */; };
+		E722915A1A52A279007CFF51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E72291591A52A279007CFF51 /* main.m */; };
+		E722915C1A52A279007CFF51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E722915B1A52A279007CFF51 /* Images.xcassets */; };
+		E722915F1A52A279007CFF51 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E722915D1A52A279007CFF51 /* MainMenu.xib */; };
+		E722916B1A52A279007CFF51 /* LightSensorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E722916A1A52A279007CFF51 /* LightSensorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E72291651A52A279007CFF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E72291491A52A279007CFF51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E72291501A52A279007CFF51;
+			remoteInfo = LightSensor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E72291511A52A279007CFF51 /* LightSensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightSensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E72291551A52A279007CFF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E72291561A52A279007CFF51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E72291571A52A279007CFF51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E72291591A52A279007CFF51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E722915B1A52A279007CFF51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E722915E1A52A279007CFF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E72291641A52A279007CFF51 /* LightSensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightSensorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E72291691A52A279007CFF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E722916A1A52A279007CFF51 /* LightSensorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightSensorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E722914E1A52A279007CFF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72291611A52A279007CFF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E72291481A52A279007CFF51 = {
+			isa = PBXGroup;
+			children = (
+				E72291531A52A279007CFF51 /* LightSensor */,
+				E72291671A52A279007CFF51 /* LightSensorTests */,
+				E72291521A52A279007CFF51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E72291521A52A279007CFF51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E72291511A52A279007CFF51 /* LightSensor.app */,
+				E72291641A52A279007CFF51 /* LightSensorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E72291531A52A279007CFF51 /* LightSensor */ = {
+			isa = PBXGroup;
+			children = (
+				E72291561A52A279007CFF51 /* AppDelegate.h */,
+				E72291571A52A279007CFF51 /* AppDelegate.m */,
+				E722915B1A52A279007CFF51 /* Images.xcassets */,
+				E722915D1A52A279007CFF51 /* MainMenu.xib */,
+				E72291541A52A279007CFF51 /* Supporting Files */,
+			);
+			path = LightSensor;
+			sourceTree = "<group>";
+		};
+		E72291541A52A279007CFF51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E72291551A52A279007CFF51 /* Info.plist */,
+				E72291591A52A279007CFF51 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E72291671A52A279007CFF51 /* LightSensorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E722916A1A52A279007CFF51 /* LightSensorTests.m */,
+				E72291681A52A279007CFF51 /* Supporting Files */,
+			);
+			path = LightSensorTests;
+			sourceTree = "<group>";
+		};
+		E72291681A52A279007CFF51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E72291691A52A279007CFF51 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E72291501A52A279007CFF51 /* LightSensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E722916E1A52A279007CFF51 /* Build configuration list for PBXNativeTarget "LightSensor" */;
+			buildPhases = (
+				E722914D1A52A279007CFF51 /* Sources */,
+				E722914E1A52A279007CFF51 /* Frameworks */,
+				E722914F1A52A279007CFF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightSensor;
+			productName = LightSensor;
+			productReference = E72291511A52A279007CFF51 /* LightSensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E72291631A52A279007CFF51 /* LightSensorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E72291711A52A279007CFF51 /* Build configuration list for PBXNativeTarget "LightSensorTests" */;
+			buildPhases = (
+				E72291601A52A279007CFF51 /* Sources */,
+				E72291611A52A279007CFF51 /* Frameworks */,
+				E72291621A52A279007CFF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E72291661A52A279007CFF51 /* PBXTargetDependency */,
+			);
+			name = LightSensorTests;
+			productName = LightSensorTests;
+			productReference = E72291641A52A279007CFF51 /* LightSensorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E72291491A52A279007CFF51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Andrew Luo";
+				TargetAttributes = {
+					E72291501A52A279007CFF51 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E72291631A52A279007CFF51 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E72291501A52A279007CFF51;
+					};
+				};
+			};
+			buildConfigurationList = E722914C1A52A279007CFF51 /* Build configuration list for PBXProject "LightSensor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E72291481A52A279007CFF51;
+			productRefGroup = E72291521A52A279007CFF51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E72291501A52A279007CFF51 /* LightSensor */,
+				E72291631A52A279007CFF51 /* LightSensorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E722914F1A52A279007CFF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E722915C1A52A279007CFF51 /* Images.xcassets in Resources */,
+				E722915F1A52A279007CFF51 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72291621A52A279007CFF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E722914D1A52A279007CFF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E722915A1A52A279007CFF51 /* main.m in Sources */,
+				E72291581A52A279007CFF51 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72291601A52A279007CFF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E722916B1A52A279007CFF51 /* LightSensorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E72291661A52A279007CFF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E72291501A52A279007CFF51 /* LightSensor */;
+			targetProxy = E72291651A52A279007CFF51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E722915D1A52A279007CFF51 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E722915E1A52A279007CFF51 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E722916C1A52A279007CFF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E722916D1A52A279007CFF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E722916F1A52A279007CFF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LightSensor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E72291701A52A279007CFF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LightSensor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E72291721A52A279007CFF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LightSensorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightSensor.app/Contents/MacOS/LightSensor";
+			};
+			name = Debug;
+		};
+		E72291731A52A279007CFF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LightSensorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightSensor.app/Contents/MacOS/LightSensor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E722914C1A52A279007CFF51 /* Build configuration list for PBXProject "LightSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E722916C1A52A279007CFF51 /* Debug */,
+				E722916D1A52A279007CFF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E722916E1A52A279007CFF51 /* Build configuration list for PBXNativeTarget "LightSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E722916F1A52A279007CFF51 /* Debug */,
+				E72291701A52A279007CFF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E72291711A52A279007CFF51 /* Build configuration list for PBXNativeTarget "LightSensorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E72291721A52A279007CFF51 /* Debug */,
+				E72291731A52A279007CFF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E72291491A52A279007CFF51 /* Project object */;
+}
