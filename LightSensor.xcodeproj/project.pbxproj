@@ -12,6 +12,9 @@
 		E722915C1A52A279007CFF51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E722915B1A52A279007CFF51 /* Images.xcassets */; };
 		E722915F1A52A279007CFF51 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E722915D1A52A279007CFF51 /* MainMenu.xib */; };
 		E722916B1A52A279007CFF51 /* LightSensorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E722916A1A52A279007CFF51 /* LightSensorTests.m */; };
+		E722917B1A52B87A007CFF51 /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = E72291761A52B87A007CFF51 /* ORSSerialPort.m */; };
+		E722917C1A52B87A007CFF51 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E72291781A52B87A007CFF51 /* ORSSerialPortManager.m */; };
+		E722917D1A52B87A007CFF51 /* ORSSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E722917A1A52B87A007CFF51 /* ORSSerialRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 		E72291641A52A279007CFF51 /* LightSensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightSensorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E72291691A52A279007CFF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E722916A1A52A279007CFF51 /* LightSensorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightSensorTests.m; sourceTree = "<group>"; };
+		E72291751A52B87A007CFF51 /* ORSSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPort.h; sourceTree = "<group>"; };
+		E72291761A52B87A007CFF51 /* ORSSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPort.m; sourceTree = "<group>"; };
+		E72291771A52B87A007CFF51 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortManager.h; sourceTree = "<group>"; };
+		E72291781A52B87A007CFF51 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortManager.m; sourceTree = "<group>"; };
+		E72291791A52B87A007CFF51 /* ORSSerialRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialRequest.h; sourceTree = "<group>"; };
+		E722917A1A52B87A007CFF51 /* ORSSerialRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +70,7 @@
 				E72291531A52A279007CFF51 /* LightSensor */,
 				E72291671A52A279007CFF51 /* LightSensorTests */,
 				E72291521A52A279007CFF51 /* Products */,
+				E72291741A52B87A007CFF51 /* ORSSerialPort */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +119,20 @@
 				E72291691A52A279007CFF51 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E72291741A52B87A007CFF51 /* ORSSerialPort */ = {
+			isa = PBXGroup;
+			children = (
+				E72291751A52B87A007CFF51 /* ORSSerialPort.h */,
+				E72291761A52B87A007CFF51 /* ORSSerialPort.m */,
+				E72291771A52B87A007CFF51 /* ORSSerialPortManager.h */,
+				E72291781A52B87A007CFF51 /* ORSSerialPortManager.m */,
+				E72291791A52B87A007CFF51 /* ORSSerialRequest.h */,
+				E722917A1A52B87A007CFF51 /* ORSSerialRequest.m */,
+			);
+			name = ORSSerialPort;
+			path = "../../Downloads/ORSSerialPort-master/Source";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E722917B1A52B87A007CFF51 /* ORSSerialPort.m in Sources */,
+				E722917C1A52B87A007CFF51 /* ORSSerialPortManager.m in Sources */,
 				E722915A1A52A279007CFF51 /* main.m in Sources */,
 				E72291581A52A279007CFF51 /* AppDelegate.m in Sources */,
+				E722917D1A52B87A007CFF51 /* ORSSerialRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
